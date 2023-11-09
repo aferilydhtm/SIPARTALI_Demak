@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css"/>
+    <link rel="stylesheet" href="dist/css/index.css">
+    <link rel="stylesheet" href="dist/css/splide.min.css">
+
+    <!-- Tailwind CSS -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ba5dd8b181.js" crossorigin="anonymous"></script>
+
+    <title>SIPARTALI Demak</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed bg-transparent top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-7">
+                  <img src="dist/assets/logo/LOGO.png" class="w-20 md:w-24 pt-1 md:pt-1 md:ml-10 -ml-2 rounded-full" alt="logo" />
+                </div>
+                <div class="flex items-center px-7">
+                  <button id="hamburger" name="hamburger" type="button" class="block absolute right-7 md:hidden">
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
+                  </button>
+                  <nav id="nav-menu" class="hidden absolute py-5 md:py-10 bg-white shadow-lg rounded-lg max-w-[210px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+                    <ul class="block md:flex">
+                      <li class="group">
+                        <a href="#home" class="scroll text-base text-black-500 py-2 mx-8 md:mx-3 flex hover:text-sky-800">HOME</a>
+                      </li>
+                      <!-- <li class="group">
+                        <a href="#ongoing-promo" class="scroll text-base text-amber-500 py-2 mx-8 md:mx-3 hidden md:flex hover:text-black" id="promo">ONGOING PROMO</a>
+                      </li> -->
+                      <li class="group">
+                        <a href="#destinasi" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-sky-800">DESTINASI</a>
+                      </li>
+                      <li class="group">
+                        <a href="#kuliner" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-sky-800">KULINER</a>
+                      </li>
+                      <li class="group">
+                        <a href="#budaya&sejarah" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-sky-800">BUDAYA & SEJARAH</a>
+                      </li>
+                      <li class="group">
+                        <a href="#aboutus" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-sky-800">ABOUT US</a>
+                      </li>
+                      <li class="group">
+                        <a href="#contactus" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-sky-800">CONTACT US</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <section class="home section pt-20 md:pt-28" id="home">
+      <div class="bg-cover bg-center w-full h-full" style="background-image:url(dist/assets/masjid_agung_demak.jpg)">
+        <!-- <img class="w-full" src="dist/assets/masjid_agung_demak.jpg" alt=""> -->
+        <div class="grid grid-cols-1 md:grid-cols-1 h-full">
+          <div class="ml-10 mr-10 md:ml-20 md:mr-10 md:p-1 mt-14 mb-14 md:mt-15 md:mb-15 text-center max-h-full">
+            <!-- <p class="text-black mt-5 text-4xl">Hi, Welcome <span id="app"></span></p> -->
+            <p class="text-white text-xl font-bold">Selamat datang di SIPARTALI Demak</p>
+            <p class="text-white text-xl font-bold">Temukan Informasi Wisata di Kota Demak</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="aboutus section pt-26 md:pt-26 bg-white" id="aboutus">
+      <div class="bg-white h-auto">
+        <h1 class="pt-16 pb-5 text-center text-sky-700 text-4xl font-bold">Tentang</h1>
+        <p class="pb-10 text-sky-700 text-center ml-10 mr-10 md:ml-20 md:mr-20">Demak adalah sebuah kota bersejarah yang terletak di Jawa Tengah, Indonesia. 
+          Terkenal sebagai kota tempat berdirinya kerajaan Demak pada abad ke-15, kota ini adalah pusat sejarah penting bagi peradaban Indonesia. 
+          Tempat ini kaya akan warisan budaya, situs bersejarah, dan tradisi yang mengakar kuat.</p>
+        <p></p>
+      </div>
+    </section>
+
+    <!-- Budaya & Sejarah -->
+    <section class="budaya&sejarah section pt-0 md:pt-0" id="budaya&sejarah">
+      <div class="bg-white h-auto">
+        <h1 class="pt-10 pb-5 text-center text-sky-700 text-4xl font-bold">Budaya & Sejarah</h1>
+        <p class="pb-5 text-sky-700 text-center ml-10 mr-10 md:ml-20 md:mr-20">
+          Demak, sebuah kota kecil yang memiliki sejarah dan budaya yang kaya di Indonesia. 
+          Kota ini terletak di Provinsi Jawa Tengah, dan dikenal sebagai tempat berdirinya 
+          Kesultanan Demak pada abad ke-15. Kesultanan Demak merupakan salah satu kerajaan Islam 
+          pertama di Jawa. Pada masa lalu, Demak menjadi pusat kekuasaan yang penting di pulau Jawa. 
+          Salah satu tokoh terkenal dari Kesultanan Demak adalah Raden Patah, yang memimpin 
+          penaklukan Malaka pada tahun 1511. Kesultanan Demak juga dikenal sebagai pelopor 
+          Islam di Jawa, dan banyak masjid-masjid bersejarah dibangun di kota ini.
+        </p>
+        <p class="pb-10 text-sky-700 text-center ml-10 mr-10 md:ml-20 md:mr-20">
+          Budaya Demak juga tercermin dalam seni dan tradisi lokal. Seni ukir kayu dan batik 
+          menjadi bagian integral dari warisan budaya Demak. Masyarakatnya juga dikenal dengan 
+          keahlian dalam seni musik dan tarian tradisional. Perkembangan kota Demak modern terus berlanjut, 
+          dengan pertumbuhan ekonomi dan infrastruktur yang mendukung. Meskipun ukurannya tidak sebesar 
+          kota-kota metropolitan lainnya, Demak memiliki daya tarik sendiri sebagai destinasi 
+          bersejarah dan budaya di Jawa Tengah.
+        </p>
+      </div>
+    </section>
+
+    <!-- Destinasi -->
+    <section class="destinasi section pt-0 md:pt-0"  id="destinasi">
+      <div class="bg-sky-600 h-auto">
+        <h1 class="pt-10 pb-5 text-center text-white text-4xl font-bold">Destinasi</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 h-full ml-10 mr-10 pt-5 pb-10">
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-0 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md" src="dist/assets/masjidagungdemak.jpg" alt="Masjid_Agung_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Masjid Agung Demak</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md h-auto" src="dist/assets/grand-canyon.jpg" alt="Brown_Canyon" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Brown Canyon</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/Hutan-Mangrove-Morosari-Demak.png" alt="Hutan_Mangrove_Morosari" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Hutan Mangrove Morosari</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+        </div>
+        <div class="text-center pb-10 md:pb-10">
+          <a
+          href="#"
+          class="text-center font-poppins bg-sky-600 hover:bg-white duration-200 text-white hover:text-sky-700 rounded-md py-3 px-10 md:py-3 md:px-6 w-auto text-xl md:text-lg"
+          data-aos="zoom-out">View More <span class="fas fa-angle-double-right"></span>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kuliner -->
+    <section class="kuliner section pt-0 md:pt-0" id="kuliner">
+      <div class="bg-neutral-200 h-auto">
+        <h1 class="pt-10 pb-5 text-center text-sky-700 text-4xl font-bold">Kuliner</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 h-full ml-10 mr-10 pt-5 pb-10">
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-0 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md" src="dist/assets/masjidagungdemak.jpg" alt="Masjid_Agung_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Masjid Agung Demak</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-sky-800"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md h-auto" src="dist/assets/grand-canyon.jpg" alt="Brown_Canyon" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Brown Canyon</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-sky-800"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/Hutan-Mangrove-Morosari-Demak.png" alt="Hutan_Mangrove_Morosari" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Hutan Mangrove Morosari</h1>
+            <h4 class="mt-2 mb-3 font-poppins pl-5 text-sm text-sky-800"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+        </div>
+        <div class="text-center pb-10 md:pb-10">
+          <a
+          href="#"
+          class="text-center font-poppins bg-neutral-200 hover:bg-sky-600 duration-200 text-sky-600 hover:text-white rounded-md py-3 px-10 md:py-3 md:px-6 w-auto text-xl md:text-lg"
+          data-aos="zoom-out">View More <span class="fas fa-angle-double-right"></span>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contactus section pt-0 md:pt-0" >
+      
+    </section>
+
+
+  <!-- Detail Infomation Company -->
+  <div class="bg-white h-auto md:h-auto">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 px-5 md:px-16 font-poppins text-sm">
+        <div class="col-span-12 md:col-span-4 pb-10 md:pb-10 -mt-4 md:-mt-0 md:pt-10 pr-10">
+          <!-- About US -->
+          <h6 class="text-black font-bold pb-2">ABOUT US</h6>
+          <a class="hover:text-amber-500" href="creators.html">Creators</a><br />
+        </div>
+        <div class="col-span-12 -mt-4 md:mt-10 md:col-span-4 pb-5 md:pb-10 pr-10">
+           <!-- Contact -->
+           <h6 class="text-black font-bold pb-2">CONTACT</h6>
+           <a class="hover:text-amber-500" href="#">Contact Us</a><br />
+        </div>
+        <div class="col-span-12 mt-5 md:mt-9 md:col-span-4 pb-10 pr-10 md:pb-10 order-first md:order-last">
+           <!-- Social Media -->
+           <h6 class="text-black font-bold pb-2">SOCIAL MEDIA</h6>
+           <div class="flex">
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="https://www.instagram.com/fatha_collection_/?hl=id"><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="https://shopee.co.id/fatha_collection"><i class="fa-solid fa-store text-xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End Main -->
+
+<!-- Footer -->
+<footer class="bg-white h-auto">
+  <div class="container mx-auto font-poppins">
+    <p class="text-black text-center pt-5 pb-5">
+      Copyright <script>document.write(new Date().getFullYear())</script> 
+      &copy; <a href="https://shopee.co.id/fatha_collection" class="text-black hover:text-sky-900">SIPARTALI_Demak</a><i class="fa-solid fa-heart text-red-600"></i>
+    </p>
+  </div>
+</footer>
+<!-- Footer -->
+
+
+    <!-- JavaScript -->
+    <!-- Navbar -->
+    <script src="dist/js/navbar.js"></script>
+    <script src="dist/js/main.js"></script>
+
+    <!-- Scroll Back to Top -->
+    <script src="dist/js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <!-- DataOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+    <!-- typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      var app = document.getElementById('app');
+  
+      var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75,
+      });
+  
+      typewriter
+        .pauseFor(1000)
+        .typeString('fatha_collection_')
+        .pauseFor(1000)
+        .start();
+    </script>
+
+    <!-- Blink -->
+    <!-- <script>
+      window.addEventListener("load", function() {
+        var f = document.getElementById('promo');
+        setInterval(function() {
+            f.style.display = (f.style.display == 'none' ? '' : 'none');
+        }, 400);
+    
+    }, false);
+    </script> -->
+
+    <!-- splide js -->
+    <script src="dist/js/splide.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#ongoing-promo-slider", {
+              type: "loop",
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#ongoing-promo-slider2", {
+            type: "loop",
+            perPage: 1,
+            perMove: 1,
+            autoplay: true,
+        }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#new-in-slider", {
+              type: "loop",
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#new-in-slider2", {
+            type: "loop",
+            perPage: 1,
+            perMove: 1,
+            autoplay: true,
+        }).mount();
+      });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Splide("#best-seller-slider", {
+                type: "loop",
+                perPage: 3,
+                perMove: 1,
+                autoplay: true,
+            }).mount();
+        });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#best-seller-slider2", {
+              type: "loop",
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+  </script>
+    <!-- End JavaScript -->
+</body>
+</html>

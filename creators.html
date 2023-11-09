@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css"/>
+    <link rel="stylesheet" href="dist/css/index.css">
+    <link rel="stylesheet" href="dist/css/splide.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ba5dd8b181.js" crossorigin="anonymous"></script>
+
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Fatha_Follection_</title>
+</head>
+<body>
+<!-- Header -->
+<header class="fixed bg-transparent top-0 left-0 w-full flex items-center z-10">
+  <div class="container">
+      <div class="flex items-center justify-between relative">
+          <div class="px-7">
+            <img src="dist/assets/logoCompany2.png" class="w-20 md:w-24 pt-1 md:pt-1 md:ml-10 -ml-2 rounded-full" alt="logo" />
+          </div>
+          <div class="flex items-center px-7">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-7 md:hidden">
+              <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-500 ease-in-out"></span>
+              <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-5 md:py-10 bg-white shadow-lg rounded-lg max-w-[210px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+              <ul class="block md:flex">
+                <li class="group">
+                  <a href="#ongoing-promo" class="scroll text-base text-amber-500 py-2 mx-8 md:mx-3 flex md:hidden hover:text-black">ONGOING PROMO</a>
+                </li>
+                <li class="group">
+                  <a href="#ongoing-promo" class="scroll text-base text-amber-500 py-2 mx-8 md:mx-3 hidden md:flex hover:text-black" id="promo">ONGOING PROMO</a>
+                </li>
+                <li class="group">
+                  <a href="#best-seller" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-500">New In</a>
+                </li>
+                <li class="group">
+                  <a href="#new-in" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-500">Best Seller</a>
+                </li>
+                <li class="group">
+                  <a href="https://shopee.co.id/fatha_collection" class="text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-500"><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+  </div>
+</header>
+<!-- End Header -->
+
+  <!-- Main -->
+  <main>
+    <!-- home -->
+    <div class="h-auto pt-20 md:pt-28">
+      <img class="w-full" src="dist/assets/banner7.png" alt="pict" />
+    </div>
+    <!-- About Company and Vision Mision -->
+    <!-- <div class="bg-black h-auto">
+        <div class="container md:mx-auto pl-5 pr-5 pt-6 pb-6">
+            <h1 class="text-amber-500 text-center md:text-left"><strong>About Company</strong></h1>
+            <p class="text-white">Dengan bangga memperkenalkan fatha_collection_, Perusahaan yang bergerak di bidang pakaian muslim atau fashion muslim yang saat ini semakin banyak bermunculan, baik di Indonesia maupun di luar negeri.</p><br>
+            <p class="text-white">fatha_collection_ ini didirikan pada tahun 2022 dan berbasis di Jakarta, Indonesia. fatha_collection_ menghasilkan berbagai macam pakaian muslim dengan desain modern yang sesuai dengan kebutuhan dan tren fashion terkini.</p><br>
+            <p class="text-white">fatha_collection_ menempatkan kualitas produk dan layanan sebagai prioritas utama. Oleh karena itu, fatha_collection_ selalu menggunakan bahan-bahan berkualitas tinggi, serta menjual produknya secara online</p><br>
+            <p class="text-white">Perusahaan ini juga memiliki kebijakan yang ramah lingkungan, dimana fatha_collection_ memastikan penggunaan bahan-bahan yang ramah lingkungan dan melakukan pengolahan limbah yang baik untuk menjaga lingkungan sekitar. fatha_collection_ juga berkomitmen untuk memberikan layanan yang terbaik kepada pelanggannya, dengan memberikan pelayanan yang cepat, responsif, dan mengutamakan kepuasan pelanggan. </p><br><br>
+            <h1 class="text-amber-500 text-center md:text-left"><strong>Vision and Mission</strong></h1>
+            <h6 class="text-amber-500">Vision:</h6>
+            <p class="text-white">Menjadi perusahaan pakaian muslimah terkemuka yang memberikan inspirasi 
+                dan solusi busana muslim modern bagi masyarakat di Indonesia dan di seluruh dunia.
+            </p><br>
+            <h6 class="text-amber-500">Mission:</h6>
+            <ul class="list-disc text-white pl-6">
+                <li>Menyediakan pakaian muslimah berkualitas tinggi dan terbaru yang memenuhi kebutuhan dan harapan pelanggan.</li>
+                <li>Menjaga kualitas produk dan layanan dengan menerapkan standar pengujian dan pengawasan yang ketat.</li>
+                <li>Menjalin kerjasama yang baik dengan mitra bisnis dan pemasok untuk memastikan ketersediaan bahan baku berkualitas tinggi.</li>
+                <li>Terus melakukan riset dan pengembangan produk untuk mengikuti perkembangan tren fashion terbaru.</li>
+                <li>Menerapkan kebijakan ramah lingkungan dan sosial dengan mengoptimalkan penggunaan sumber daya dan mengurangi dampak negatif terhadap lingkungan.</li>
+                <li>Membangun tim yang profesional dan terampil untuk meningkatkan kualitas produk dan layanan yang diberikan kepada pelanggan.</li>
+                <li>Meningkatkan kepuasan pelanggan dengan memberikan layanan yang ramah dan responsif serta memberikan solusi yang tepat bagi setiap masalah yang dihadapi oleh pelanggan.</li>
+                <li>Menjaga kepercayaan pelanggan dengan memberikan produk dan layanan yang jujur, transparan, dan berkualitas.</li>
+            </ul>
+        </div>
+      </div>
+    <div> -->
+
+    </div>
+    <!-- Owners/Web Dev -->
+    <div class="bg-white">
+      <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-extrabold font-poppins pt-8 md:pt-10 pb-5 mb:pb-0 px-20">
+          <strong class="text-black">OWNERS and</strong>
+          <strong class="text-amber-500">WEB DEV</strong>
+        </h1>
+        <div class="grid grid-cols-1 gap-10 mt-4 mb-16 ml-10 mr-10 md:grid-cols-3 text-center">
+          <div class="border bg-gray-200 shadow-lg rounded-md text-center">
+            <a href="#"><i class="fa-solid fa-user text-4xl pt-3 hover:text-amber-500"></i></a>
+            <h1 class="mt-2 mb-1 font-poppins text-center">Fatihani Rahayu Aulia</h1>
+            <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Owner</h3>
+          </div>
+          <div class="border bg-gray-200 shadow-lg rounded-md text-center">
+            <a href="#"><i class="fa-solid fa-user text-4xl pt-3 hover:text-amber-500"></i></a>
+            <h1 class="mt-2 mb-1 font-poppins text-center">Muhammad Farhan Firdaus</h1>
+            <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Owner</h3>
+          </div>
+          <div class="border bg-gray-200 shadow-lg rounded-md text-center">
+            <a href="#"><i class="fa-solid fa-user text-4xl pt-3 hover:text-amber-500"></i></a>
+            <h1 class="mt-2 mb-1 font-poppins text-center">Aferil Yudhatama</h1>
+            <h4 class="mt-2 mb-3 font-poppins text-center text-sm text-gray-500">Web Dev</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Infomation Company -->
+  <div class="bg-white h-auto md:h-auto">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 px-5 md:px-16 font-poppins text-sm">
+        <div class="col-span-12 md:col-span-4 pb-10 md:pb-10 -mt-4 md:-mt-0 md:pt-10 pr-10">
+          <!-- About US -->
+          <h6 class="text-black font-bold pb-2">ABOUT US</h6>
+          <a class="hover:text-amber-500" href="creator.html">Creator</a><br />
+        </div>
+        <div class="col-span-12 -mt-4 md:mt-10 md:col-span-4 pb-5 md:pb-10 pr-10">
+           <!-- Contact -->
+           <h6 class="text-black font-bold pb-2">CONTACT</h6>
+           <a class="hover:text-amber-500" href="#">Contact Us</a><br />
+        </div>
+        <div class="col-span-12 mt-5 md:mt-9 md:col-span-4 pb-10 pr-10 md:pb-10 order-first md:order-last">
+           <!-- Social Media -->
+           <h6 class="text-black font-bold pb-2">SOCIAL MEDIA</h6>
+           <div class="flex">
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="https://www.instagram.com/fatha_collection_/?hl=id"><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+            <a class="hover:text-amber-500 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-500" href="https://shopee.co.id/fatha_collection"><i class="fa-solid fa-store text-xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <!-- End Main -->
+
+  <!-- Footer -->
+  <footer class="bg-white h-auto">
+    <div class="container mx-auto font-poppins">
+      <p class="text-black text-center pt-5 pb-5">
+        Copyright <script>document.write(new Date().getFullYear())</script> 
+        &copy; <a href="https://shopee.co.id/fatha_collection" class="text-black hover:text-amber-500">Fatha_Collection_</a><i class="fa-solid fa-heart text-red-600"></i>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- JavaScript -->
+
+    <!-- Navbar -->
+    <script src="dist/js/navbar.js"></script>
+    <script src="dist/js/main.js"></script>
+    
+    <!-- Scroll Back to Top -->
+    <script src="dist/js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+  <!-- End JavaScript -->
+
+</body>
+</html>
