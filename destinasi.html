@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css"/>
+    <link rel="stylesheet" href="dist/css/index.css">
+    <link rel="stylesheet" href="dist/css/splide.min.css">
+
+    <!-- Tailwind CSS -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Data AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ba5dd8b181.js" crossorigin="anonymous"></script>
+
+    <title>SIPARTALI Demak</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed bg-transparent top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-7">
+                  <img src="dist/assets/logo/LOGO.png" class="w-16 md:w-20 pt-0 pb-0 md:pt-0 md:pb-0 md:ml-10 -ml-2 rounded-full" alt="logo" />
+                </div>
+                <div class="flex items-center px-7">
+                  <button id="hamburger" name="hamburger" type="button" class="block absolute right-7 md:hidden">
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
+                  </button>
+                  <nav id="nav-menu" class="hidden absolute py-5 md:py-10 bg-white shadow-lg rounded-lg max-w-[210px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+                    <ul class="block md:flex">
+                      <li class="group">
+                        <a href="index.html" class="scroll text-base text-black-500 py-2 mx-8 md:mx-3 flex hover:text-amber-800">HOME</a>
+                      </li>
+                      <!-- <li class="group">
+                        <a href="#ongoing-promo" class="scroll text-base text-amber-500 py-2 mx-8 md:mx-3 hidden md:flex hover:text-black" id="promo">ONGOING PROMO</a>
+                      </li> -->
+                      <li class="group">
+                        <a href="destinasi.html" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-800">DESTINASI</a>
+                      </li>
+                      <li class="group">
+                        <a href="#kuliner" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-800">KULINER</a>
+                      </li>
+                      <li class="group">
+                        <a href="#budaya&sejarah" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-800">BUDAYA & SEJARAH</a>
+                      </li>
+                      <li class="group">
+                        <a href="#aboutus" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-800">ABOUT US</a>
+                      </li>
+                      <li class="group">
+                        <a href="#contactus" class="scroll text-base text-black py-2 mx-8 md:mx-3 flex group-hover:text-amber-800">CONTACT US</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Destinasi -->
+    <section class="destinasi section pt-0 md:pt-28"  id="destinasi">
+      <div class="bg-amber-900 h-auto">
+        <h1 class="pt-20 md:pt-10 pb-5 text-center text-white text-4xl font-bold">Destinasi Wisata</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 h-full ml-10 mr-10 pt-5 pb-10">
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-0 mb-5 md:mt-0 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md" src="dist/assets/masjidagungdemak.jpg" alt="Masjid_Agung_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Masjid Agung Demak</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md h-auto" src="dist/assets/grand-canyon.jpg" alt="Brown_Canyon" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Brown Canyon</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-0 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/Hutan-Mangrove-Morosari-Demak.png" alt="Hutan_Mangrove_Morosari" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Hutan Mangrove Morosari</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-5 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/kelenteng-poo-an-bio-1.jpg" alt="Kelenteng_Poo_An_Bio_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Kelenteng Poo An Bio Demak</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-5 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/pranawa-capture-pSHbmN56VGU-unsplash.jpg" alt="Pantai_Morosari_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Pantai Morosari Demak</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+          <div class="border bg-white shadow-lg rounded-md ml-2 mr-2 mt-5 mb-5 md:mt-5 md:mb-0 hover:scale-105" data-aos="flip-left">
+            <img class="rounded-t-md h-56 w-full" src="dist/assets/Taman-Air-Polaris.jpg" alt="Taman_Air_Polaris_Demak" />
+            <h1 class="mt-2 mb-5 font-poppins pl-5 pt-3 text-left">Taman Air Polaris Demak</h1>
+            <h4 class="mt-1 mb-5 font-poppins pl-5 text-sm text-gray-500"><i class="fa-regular fa-clock"></i> none</h4>
+          </div>
+        </div>
+        <!-- <div class="text-center pb-10 md:pb-10">
+          <a
+          href="#"
+          class="text-center font-poppins bg-amber-900 hover:bg-white duration-200 text-white hover:text-amber-900 rounded-md py-3 px-10 md:py-3 md:px-6 w-auto text-xl md:text-lg"
+          data-aos="zoom-out">View More <span class="fas fa-angle-double-right"></span>
+        </a>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contactus section pt-0 md:pt-0" >
+      
+    </section>
+
+
+  <!-- Detail Infomation Company -->
+  <div class="bg-white h-auto md:h-auto">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 px-5 md:px-16 font-poppins text-sm">
+        <div class="col-span-12 md:col-span-4 pb-10 md:pb-10 -mt-4 md:-mt-0 md:pt-10 pr-10">
+          <!-- About US -->
+          <h6 class="text-black font-bold pb-2">Developer</h6>
+          <a class="hover:text-amber-700" href="creators.html">Creators</a><br />
+        </div>
+        <div class="col-span-12 -mt-4 md:mt-10 md:col-span-4 pb-5 md:pb-10 pr-10">
+          <!-- Contact -->
+          <h6 class="text-black font-bold pb-2">CONTACT</h6>
+          <p><i class="fa-solid fa-phone"></i> 62-897 4835 297</p>
+          <p><i class="fa-solid fa-phone"></i> 62-813 8590 0326</p>
+          <p><i class="fa-solid fa-phone"></i> 62-857 8210 1497</p>
+          <a class="hover:text-amber-700" href="#"><i class="fa-solid fa-envelope"></i> sipartalidemak@gmail.com</a>
+        </div>
+        <div class="col-span-12 mt-5 md:mt-9 md:col-span-4 pb-10 pr-10 md:pb-10 order-first md:order-last">
+          <!-- Social Media -->
+          <h6 class="text-black font-bold pb-2">SOCIAL MEDIA</h6>
+          <div class="hidden md:flex">
+            <a class="hover:text-amber-700 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-700" href="#"><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <!-- <a class="hover:text-amber-700 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-700" href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a> -->
+            <a class="hover:text-amber-700 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-700" href="#"><i class="fa-brands fa-youtube text-xl"></i></a>
+            <a class="hover:text-amber-700 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-700" href="#"><i class="fa-brands fa-facebook text-xl"></i></a>
+            <a class="hover:text-amber-700 border rounded-full w-9 h-9 flex justify-center items-center mr-2 border-black hover:border-amber-700" href="#"><i class="fa-brands fa-twitter text-xl"></i></a>
+          </div>
+          <div class="md:hidden">
+            <a class="hover:text-amber-700" href="#">Instagram</a><br>
+            <a class="hover:text-amber-700" href="#">Youtube</a><br>
+            <a class="hover:text-amber-700" href="#">Facebook</a><br>
+            <a class="hover:text-amber-700" href="#">Twitter</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End Main -->
+
+<!-- Footer -->
+<footer class="bg-white h-auto">
+  <div class="container mx-auto font-poppins">
+    <p class="text-black text-center pt-5 pb-5">
+      Copyright <script>document.write(new Date().getFullYear())</script> 
+      &copy; <a href="https://shopee.co.id/fatha_collection" class="text-black hover:text-amber-700">SIPARTALI_Demak</a><i class="fa-solid fa-heart text-red-600"></i>
+    </p>
+  </div>
+</footer>
+<!-- Footer -->
+
+
+    <!-- JavaScript -->
+    <!-- Navbar -->
+    <script src="dist/js/navbar.js"></script>
+    <script src="dist/js/main.js"></script>
+
+    <!-- Scroll Back to Top -->
+    <script src="dist/js/up_btn.js"></script>
+    <script>
+    up({});
+    </script>
+    <!-- Scroll Back to Top -->
+
+    <!-- DataOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+    <!-- typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      var app = document.getElementById('app');
+  
+      var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75,
+      });
+  
+      typewriter
+        .pauseFor(1000)
+        .typeString('SIPARTALI_Demak')
+        .pauseFor(1000)
+        .start();
+    </script>
+
+    <!-- Blink -->
+    <!-- <script>
+      window.addEventListener("load", function() {
+        var f = document.getElementById('promo');
+        setInterval(function() {
+            f.style.display = (f.style.display == 'none' ? '' : 'none');
+        }, 400);
+    
+    }, false);
+    </script> -->
+
+    <!-- splide js -->
+    <script src="dist/js/splide.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#ongoing-promo-slider", {
+              type: "loop",
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#ongoing-promo-slider2", {
+            type: "loop",
+            perPage: 1,
+            perMove: 1,
+            autoplay: true,
+        }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#new-in-slider", {
+              type: "loop",
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#new-in-slider2", {
+            type: "loop",
+            perPage: 1,
+            perMove: 1,
+            autoplay: true,
+        }).mount();
+      });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Splide("#best-seller-slider", {
+                type: "loop",
+                perPage: 3,
+                perMove: 1,
+                autoplay: true,
+            }).mount();
+        });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide("#best-seller-slider2", {
+              type: "loop",
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+          }).mount();
+      });
+  </script>
+    <!-- End JavaScript -->
+</body>
+</html>
