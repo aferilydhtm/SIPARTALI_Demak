@@ -1,5 +1,5 @@
 {
-  "name": "Fatha_Collection_v4",
+  "name": "Pariwisata_V1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Fatha_Collection_",
+  "author": "Aferil_Yudhatama_",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
