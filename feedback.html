@@ -96,12 +96,12 @@
                         <div class="flex-col">
                             <!-- <label for="">Masukkan Nama</label>
                             <input type="text" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nama" placeholder="Name" autocomplete="off" required> -->
-                            <label for="Email" class="md:ml-4 -ml-80 text-yellow-900 font-semibold">Email</label><br>
+                            <!-- <label for="Email" class="md:ml-4 -ml-80 text-yellow-900 font-semibold">Email</label><br> -->
                             <input type="email" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="email" placeholder="Email" autocomplete="off" required><br>
-                            <label for="Nilai" class="md:ml-4 -ml-64 text-yellow-900 font-semibold">Nilai dari 1 - 10</label><br>
+                            <!-- <label for="Nilai" class="md:ml-4 -ml-64 text-yellow-900 font-semibold">Nilai dari 1 - 10</label><br> -->
                             <input type="number" class="my-3 mx-4 w-5/6 px-7 py-2 rounded-md drop-shadow-md" name="nilai" placeholder="nilai" required><br>
-                            <label for="Komentar" class="md:ml-4 -ml-72 text-yellow-900 font-semibold">Komentar</label><br>
-                            <textarea name="komentar" placeholder="Message" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md " id="" cols="30" rows="5" autocomplete="off" required></textarea>
+                            <!-- <label for="Komentar" class="md:ml-4 -ml-72 text-yellow-900 font-semibold">Komentar</label><br> -->
+                            <textarea name="komentar" placeholder="komentar" class="my-3 mx-4 px-7 py-3 w-5/6 rounded-md drop-shadow-md " id="" cols="30" rows="5" autocomplete="off"></textarea>
                             <button type="submit" class="btn-kirim my-3 mx-4 py-2 px-8 border rounded-md bg-blue-700 hover:bg-blue-400 duration-200 text-white">Send</button>
                             <button type="button" class="btn-loading hidden inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-white bg-indigo-500 hover:bg-indigo-400 transition ease-in-out duration-150 cursor-not-allowed ml-4" disabled="">
                             <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -197,21 +197,17 @@
         form.addEventListener('submit', e => {
           e.preventDefault()
   
-          <!-- tampil-tloading-hilang-tkirim -->
           btnLoading.classList.toggle('hidden')
           btnKirim.classList.toggle('hidden')
   
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
               
-              <!-- tampil-tkirim-hilang-tloading -->
               btnLoading.classList.toggle('hidden')
               btnKirim.classList.toggle('hidden')
   
-              <!-- tampilkan-alert -->
               myAlert.classList.toggle('hidden')
               
-              <!-- reset-form -->
               form.reset()
               console.log('Success!', response)
             })
